@@ -1,4 +1,4 @@
-///https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/
+///Reference:https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/
 ///Edited by Arjun Kamath 11/5/18
 
 
@@ -119,7 +119,7 @@ void wait()
 	
 }
 
-// C recursive function to solve tower of hanoi puzzle 
+// C recursive function to solve tower of hanoi puzzle (Taken from https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/)
 void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod) 
 { 
 	if (n == 1) 
